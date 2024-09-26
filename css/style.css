@@ -25,4 +25,14 @@ main {
 
 .offcanvas-top{
     height: fit-content;
-}
+}}
+#movieDetails {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
