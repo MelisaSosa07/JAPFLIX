@@ -28,6 +28,20 @@
       <ul class="list-group container" id="lista">
       </ul>
     </div>
+
+    <!-- Contenedor para mostrar los detalles de la película -->
+    <div id="movieDetails" class="bg-light text-dark p-3" style="display: none;">
+      <h5 id="movieTitle"></h5>
+      <p id="movieOverview"></p>
+      <p><strong>Géneros:</strong> <span id="movieGenres"></span></p>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="toggleDetails">Más información</button>
+      <div id="extraDetails" style="display: none;">
+        <p>Año de lanzamiento: <span id="movieYear"></span></p>
+        <p>Duración: <span id="movieDuration"></span> minutos</p>
+        <p>Presupuesto: $<span id="movieBudget"></span></p>
+        <p>Ganancias: $<span id="movieRevenue"></span></p>
+      </div>
+    </div>
   </main>
 
   <footer class="text-muted py-3">
@@ -43,6 +57,7 @@
 
   <script src="js/bootstrap.bundle.min.js"></script>
 
+  <script src="js/index.js"></script>
 </body>
 
-</html>
+</html></html>
